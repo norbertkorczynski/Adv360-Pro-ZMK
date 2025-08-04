@@ -114,11 +114,11 @@
         Delete_mod {
             display-name = "Del";
             bindings = <
-&trans  &trans  &trans  &trans          &trans           &trans  &tog 1                                      &mo 3   &trans  &trans        &trans          &trans    &trans     &trans
-&trans  &trans  &trans  &trans          &trans           &trans  &none                                       &none   &trans  &trans        &trans          &trans    &trans     &trans
-&trans  &trans  &trans  &trans          &trans           &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp DOWN      &kp UP          &kp LEFT  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans          &trans           &trans                  &trans      &trans                  &trans  &trans        &trans          &trans    &trans     &trans
-&trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT          &trans  &trans  &trans      &trans  &trans  &trans          &msc SCRL_UP  &msc SCRL_DOWN  &trans    &trans     &trans
+&trans  &trans  &trans  &trans          &trans           &trans  &tog 1                                          &mo 3   &trans  &trans        &trans          &trans    &trans     &trans
+&trans  &trans  &trans  &trans          &trans           &trans  &none                                           &none   &trans  &trans        &trans          &trans    &trans     &trans
+&trans  &trans  &trans  &trans          &trans           &trans  &none   &trans  &trans      &trans  &kp DELETE  &none   &trans  &kp DOWN      &kp UP          &kp LEFT  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans          &trans           &trans                  &trans      &trans                      &trans  &trans        &trans          &trans    &trans     &trans
+&trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT          &trans  &trans  &trans      &trans  &trans      &trans          &msc SCRL_UP  &msc SCRL_DOWN  &trans    &trans     &trans
             >;
         };
     };
